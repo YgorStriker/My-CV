@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=MuseoModerno:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.infoColumn {
+    background-image: linear-gradient(to top right, #000000, #1c1c1c, #303030);
+    padding: 40px;
+    color: white;
+}
+.infoColumn hr {
+    margin-top: 18px;
+    height: 2px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), #cc8306, #fce303, rgba(0, 255, 0, 0));
+    border: none;
+}
+.infoColumn {
+    text-align: left;
+}
+.infoColumn i {
+    width: 15px;
+    margin-right: 14px;
+    color: #cc8306;
+}
+.infoColumn li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+.infoColumn a {
+    text-decoration: none;
+    color: white;
+}
+
+.infoColumn img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 18px;
+    border: 2px solid #fcba03;
+    border-radius: 50%;
+}
+
+.header {
+    text-align: center;
+}
+.header h1, h2{
+    font-family: 'MuseoModerno', cursive;
+}
+
+.contacts h3 {
+    margin-top: 20px;
+}
+
+.education {
+    margin-top: 32px;
+}
+.education p {
+    color: #cc8306;
+}
+
+.languages .percent {
+    width: 270px;
+    height: 6px;
+    background-color: #cc8306;
+    margin-top: 5px;
+}
+.languages .percent div {
+    height: 6px;
+    background-color: #fce303;
+}
+.languages .percent.english div {
+    width: 72%;
+}
+.languages .percent.french div {
+    width: 20%;
+}
+
+.expColumn {
+    background-color: white;
+    padding: 40px;
+    color: black;
+}
+.about, .exp, .projects {
+    text-align: justify;
+}
+.expColumn h2 {
+    margin-bottom: 15px;
+    font-family: 'Gentium Book Plus', serif;
+    text-align: left;
+}
+.expColumn p {
+    margin-bottom: 15px;
+}
+
+.projects h3 {
+    margin-top: 5px;
+}
+.projects a {
+    color: #cc8306;
+}
+
+.expColumn .foot {
+    text-align: right;
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;        
+    }
+    .infoColumn img {
+        width: 220px;
+        height: 220px;
+    }
+    .header h1, h2{
+        font-family: 'MuseoModerno', cursive;
+        font-size: 28px;
+    }
+}
