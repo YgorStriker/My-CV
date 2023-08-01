@@ -22,9 +22,12 @@
     text-align: left;
 }
 .infoColumn i {
-    width: 15px;
+    width: 18px;
     margin-right: 14px;
-    color: #cc8306;
+    background: linear-gradient(to top right, #cc8306, #fcec03, #fff242);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;  
 }
 .infoColumn li {
     list-style-type: none;
@@ -58,7 +61,10 @@
     margin-top: 32px;
 }
 .education p {
-    color: #cc8306;
+    background: linear-gradient(to top right, #cc8306, #fce303);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .languages .percent {
@@ -118,5 +124,11 @@
     .header h1, h2{
         font-family: 'MuseoModerno', cursive;
         font-size: 28px;
+    }
+    .exp {
+        display: flex;
+    }
+    .expDate h3, h4{
+        width: 210px;
     }
 }
