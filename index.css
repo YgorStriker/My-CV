@@ -15,7 +15,7 @@
 .infoColumn hr {
     margin-top: 18px;
     height: 2px;
-    background: linear-gradient(to right, rgba(255, 0, 0, 0), #cc8306, #fce303, rgba(0, 255, 0, 0));
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), #0004ff, #9900ff, #ed05d2, #ff0505, rgba(0, 255, 0, 0));
     border: none;
 }
 .infoColumn {
@@ -24,7 +24,7 @@
 .infoColumn i {
     width: 18px;
     margin-right: 14px;
-    background: linear-gradient(to top right, #cc8306, #fcec03, #fff242);
+    background: linear-gradient(to top right, #0004ff, #9900ff, #ed05d2, #ff0505);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;  
@@ -42,7 +42,7 @@
     width: 300px;
     height: 300px;
     margin-bottom: 18px;
-    border: 2px solid #fcba03;
+    border: 2px solid #9900ff;
     border-radius: 50%;
 }
 
@@ -61,7 +61,7 @@
     margin-top: 32px;
 }
 .education p {
-    background: linear-gradient(to top right, #cc8306, #fce303);
+    background: linear-gradient(to top, #9900ff, #ed05d2,#ff005d);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -69,19 +69,27 @@
 
 .languages .percent {
     width: 270px;
-    height: 6px;
-    background-color: #cc8306;
+    height: 5px;
+    background-color: #ff005d;
     margin-top: 5px;
+    border-radius: 3px;
 }
 .languages .percent div {
-    height: 6px;
-    background-color: #fce303;
+    height: 5px;
+    background-color: #9900ff;
+    border-radius: 3px;
 }
 .languages .percent.english div {
-    width: 72%;
+    width: 71%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .languages .percent.french div {
     width: 20%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .expColumn {
@@ -121,9 +129,13 @@
         width: 220px;
         height: 220px;
     }
-    .header h1, h2{
+    .header h1 {
         font-family: 'MuseoModerno', cursive;
         font-size: 28px;
+    }
+    .header h2 {
+        font-family: 'MuseoModerno', cursive;
+        font-size: 24px;
     }
     .exp {
         display: flex;
